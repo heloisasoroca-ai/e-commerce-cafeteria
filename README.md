@@ -3,10 +3,10 @@
 Projeto prático desenvolvido na Unidade Curricular de **Linguagem de Marcação (HTML5 & CSS3)**.
 
 ## 🌐 Links das Páginas Publicadas (GitHub Pages)
-- 🏠 [Vitrine Principal (index.html)](https://github.com/heloisasoroca-ai/e-commerce-cafeteria.git/index.html)
-- 🔍 [Detalhes do Produto (produto.html)](https://github.com/heloisasoroca-ai/e-commerce-cafeteria.git/produto.html)
-- 🛍️ [Carrinho de Compras (carrinho.html)](https://github.com/heloisasoroca-ai/e-commerce-cafeteria.git/carrinho.html)
-- 👤 [Cadastro e Checkout (cadastro.html)](https://github.com/heloisasoroca-ai/e-commerce-cafeteria.git/cadastro.html)
+- 🏠 [Vitrine Principal (index.html)](https://heloisasoroca-ai.github.io/e-commerce-cafeteria/index.html)
+- 🔍 [Detalhes do Produto (produto.html)](https://heloisasoroca-ai.github.io/e-commerce-cafeteria/produto.html)
+- 🛍️ [Carrinho de Compras (carrinho.html)](https://heloisasoroca-ai.github.io/e-commerce-cafeteria/carrinho.html)
+- 👤 [Cadastro e Checkout (cadastro.html)](https://heloisasoroca-ai.github.io/e-commerce-cafeteria/cadastro.html)
 
 ---
 
