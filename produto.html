@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Produto - Café D'or</title>
+  </head>
+  <body>
+   
+    <header>
+      <img
+        class="img-logo"
+        src="img/image_a37e33cb.jpg"
+        alt="Logo da Cafeteria Cafés D'or"
+      />
+      <div class="header-info">
+        <h1 class="titulo-pagina">Café D'or</h1>
+        <p style="color: var(--text-light); opacity: 0.9;"><em>O seu momento gourmet</em></p>
+      </div>
+    </header>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="carrinho.html">Carrinho</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+
+    <main class="container-formulario">
+    
+      <nav class="breadcrumb-loja" aria-label="Breadcrumb">
+        Início &gt; Bebidas Quentes &gt; Cafés Especiais
+      </nav>
+
+
+      <section class="layout-produto" style="margin-top: 20px">
+        <div class="coluna-galeria">
+
+          <div style="overflow: hidden; border-radius: 12px;">
+            <img
+              class="foto-principal-detalhe"
+              src="img/image_7e996c2c.jpg"
+              alt="Mocha de Chocolate Belga"
+            />
+          </div>
+     
+         
+          <div class="galeria-thumbnails">
+            <img
+              class="thumbnail-item"
+              src="img/image_476dff47.jpg"
+              alt="Imagem do Affogato al Caffè"
+            />
+            <img
+              class="thumbnail-item"
+              src="img/image_2efacebb.jpg"
+              alt="Imagem do Espresso Tonic com Hibisco"
+            />
+          </div>
+        </div>
+
+  
+        <div class="coluna-info-compra">
+          <h1 style="color: var(--text-dark); font-size: 2.2rem; font-weight: 700">
+            Mocha de Chocolate Belga
+          </h1>
+
+          <div
+            style="
+              color: #f59e0b;
+              display: flex;
+              align-items: center;
+              gap: 4px;
+              font-size: 0.95rem;
+              font-weight: 500;
+            "
+          >
+            ⭐⭐⭐⭐⭐
+            <span style="color: #64748b; font-size: 0.85rem"
+              >(4.9/5 de 120 avaliações)</span
+            >
+          </div>
+
+          <div style="margin: 10px 0">
+            <span class="preco-antigo-detalhe">R$ 18,90</span>
+            <div class="preco-atual-detalhe">R$ 15,50</div>
+          </div>
+
+          <div class="form-group-item">
+            <label for="tamanho-cafe">Escolha o Tamanho:</label>
+            <select
+              id="tamanho-cafe"
+              class="seletor-opcoes"
+              style="max-width: 100%"
+            >
+              <option value="medio">Médio (350ml)</option>
+              <option value="pequeno">Pequeno (200ml)</option>
+              <option value="grande">Grande (500ml)</option>
+            </select>
+          </div>
+            <a href="carrinho.html">Adicionar ao Carrinho</a>
+          <button class="btn-principal" style="width: 100%; max-width: 240px; margin-top: 10px">
+          </button>
+        </div>
+      </section>
+
+     
+      <section style="margin-top: 40px">
+        <table class="tabela-ecommerce">
+          <caption>
+            Especificações Técnicas do Grão
+          </caption>
+          <thead>
+            <tr>
+              <th scope="col" style="width: 35%">Característica</th>
+              <th scope="col">Detalhes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" style="background: transparent; font-weight: 600">
+                Variedade do Grão
+              </th>
+              <td>100% Arábica (Bourbon Amarelo)</td>
+            </tr>
+            <tr>
+              <th scope="row" style="background: transparent; font-weight: 600">
+                Origem
+              </th>
+              <td>Sul de Minas Gerais, Brasil</td>
+            </tr>
+            <tr>
+              <th scope="row" style="background: transparent; font-weight: 600">
+                Tipo de Chocolate
+              </th>
+              <td>Cacau Callebaut 54.5% Belga original</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </body>
+</html>
